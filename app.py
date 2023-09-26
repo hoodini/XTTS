@@ -118,4 +118,4 @@ gr.Interface(
     description=description,
     article=article,
     examples=examples,
-).queue().launch(debug=True)
+).queue().launch(share=True, debug=True)
