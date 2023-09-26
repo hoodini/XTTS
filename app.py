@@ -51,19 +51,19 @@ examples = [
     [
         "Once when I was six years old I saw a magnificent picture.",
         "en",
-        "examples/female.wav",
+        "female.wav",
         True,
     ],
     [
         "Lorsque j'avais six ans j'ai vu, une fois, une magnifique image.",
         "fr",
-        "examples/male.wav",
+        "male.wav",
         True,
     ],
     [
         "Un tempo lontano, quando avevo sei anni, vidi un magnifico disegno.",
         "it",
-        "examples/female.wav",
+        "female.wav",
         True,
     ],
 ]
@@ -102,7 +102,7 @@ gr.Interface(
             label="Reference Audio",
             info="Click on the ✎ button to upload your own target speaker audio",
             type="filepath",
-            value="examples/female.wav",
+            value="female.wav",
         ),
         gr.Checkbox(
             label="Agree",
